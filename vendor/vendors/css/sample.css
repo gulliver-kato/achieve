@@ -1,0 +1,110 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  text-align: center;
+	margin: 0;
+}
+
+.main-header {
+  padding-bottom: 15%;
+  height: 150px;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+
+/* ここから */
+header {
+  background-color: #444444;
+  height:40px;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+header ul{
+  margin-top: 0;
+}
+
+header ul a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.7rem;
+  display: block;
+  padding: 10px 15px 15px 15px;
+}
+
+header ul a:hover{
+  text-decoration: underline;
+}
+
+
+header li {
+ list-style: none;
+}
+
+header ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.main-header img {
+ position: relative;
+ top: 50%;
+ width: 30%;
+
+
+}
+
+.about {
+padding: 20px 0px 40px 0px;
+}
+
+/* ここから */
+.function {
+  background-color: #f5f5f5;
+  padding:  15px 0 70px 0;
+}
+
+.function-images{
+  margin: 0 17%;
+}
+
+
+.function-images:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.function-image {
+  float:left;
+  text-align: center;
+  margin: 0 15px;
+}
+/* ここまでがfunction部分の実装 */
+
+footer {
+background-color: #2a3d4f;
+color: #fff;
+font-size: 0.7rem;
+padding-top: 25px;
+}
+
+footer p{
+  margin: 0;
+  padding: 3px;
+}
+
+/* ここに書かれているcssの記述はあくまでヒントとして用意された雛形なので、書かれている記述に従わずに実装したいという場合は、自分の好きに実装して構わない。課題要件を満たし、コードの品質が一定の水準にあると判定されればどのような実装でも合格になる。 */
