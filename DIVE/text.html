@@ -1,0 +1,43 @@
+<html>
+<head>
+  <style type="text/css">
+  #content1 {
+    width: 700px;
+    margin: 0 auto;
+    background: #CCCCCC;
+  }
+  #content2 {
+    width: 700px;
+    height: 300px;
+    margin: 0 auto;
+    background: #848484;
+  }
+  #main {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: #333DFF;
+  }
+  #side {
+    float: left;
+    width: 400px;
+    height: 400px;
+    background: #27C42A;
+  }
+  .clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+  </style>
+</head>
+<body>
+  <div class="clearfix" id="content1">
+    <div id="main">メイン</div>
+    <div id="side">サイド</div>
+  </div>
+  <div id="content2">
+    コンテンツ2
+  </div>
+</body>
+</html>
