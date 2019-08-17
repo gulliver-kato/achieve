@@ -78,7 +78,8 @@ padding: 20px 0px 40px 0px;
 }
 
 .function-images{
-  margin: 0 17%;
+  display: flex;
+  justify-content: center;
 }
 
 
